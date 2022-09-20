@@ -1,0 +1,152 @@
+body{
+    background-image: url("./assests/marvelbackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.76);
+
+}
+
+h2{
+    display: block;
+    text-align: center;
+    margin: 30px 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}   
+
+button{
+    font-size: 20px;
+    padding: 30px 50px;
+    margin-inline: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#comics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: 50px;
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.title_2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.title_3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.title_4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.title_5{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+.title_6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+@media screen and (max-width: 1230px) {
+    button {
+        font-size: 20px;
+        padding: 30px 50px;
+        margin-inline: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+ }
+
+ @media screen and (max-width: 930px){
+    button {
+        font-size: 20px;
+        padding: 30px 50px;
+        margin-inline: 20px;
+        background-color: white;
+        border-radius: 10px;
+    }
+ }
+ @media screen and (max-width: 700px) {
+    button {
+        font-size: 20px;
+        padding: 20px 20px;
+        margin-inline: 8px;
+        background-color: white;
+        border-radius: 10px;
+    }
+ }
+ @media screen and (max-width: 550px) {
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    h1{
+        text-align: center;
+        font-size: 80px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+    h2{
+        display: block;
+        text-align: center;
+        margin: 30px 30px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+ }
